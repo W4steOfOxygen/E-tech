@@ -1,0 +1,57 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: monospace;
+    scroll-behavior: smooth;
+}
+
+
+
+
+.LowerHead{
+    height: auto;
+    width: 100%;
+    max-width:  100%;
+    max-height: 100%;
+    background-color: rgb(77, 119, 204);
+    color: #fff;
+    padding: 10px;
+    justify-content: space-between;
+    border-spacing: 30px;
+}
+
+
+.Mercury {
+    margin: auto;
+    height: 50%;
+    width: 80%;
+    content: "";
+    clear: both;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    background-color: #d4d4d4;
+  }
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.text {
+    color: #000000;
+} 
+
+.Venus {   
+    margin: auto;
+    width: 80%;
+    border: 5px solid rgb(255, 255, 255);
+    border-spacing: 10px;
+    clear: both;
+    color: #000000;
+    font-size: 15px;
+    background-color: #d4d4d4;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}    
